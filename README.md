@@ -30,6 +30,9 @@ Decided from there to make a menu-based command line application using Python fo
 
 When planning structure of code for project, first task was to identify main entities/objects (thinking with OOP principles) being used to create needed classes based on the ask. 
 
+Used getters and setters when needed in Employee + Dependent classes
+to enforce sense of encapsulation + create intermeidate point to access/manipulate properties.
+
 From there, I identified the need for an Employee and Dependent class. Both classes share first + last name, but Employee class also includes `dependents` property to contain list of associated Dependents.
 
 
