@@ -11,7 +11,7 @@ def main():
 
     user_input = ""
 
-    while user_input != "quit" or user_input == 3:
+    while True:
 
         print("""
         Main Menu:
